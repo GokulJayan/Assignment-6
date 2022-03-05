@@ -50,16 +50,16 @@ function TabNav() {
     );
   }
 
-function DrawerNav() {
-    return (
-    <NavigationContainer>
-        <Drawer.Navigator initialRouteName="Home">
-            <Drawer.Screen name="Home" component={HomeScreen} />
-            <Drawer.Screen name="Notifications" component={NotificationsScreen} />
-        </Drawer.Navigator>
-    </NavigationContainer>
-    );
-}
+// function DrawerNav() {
+//     return (
+//     <NavigationContainer>
+//         <Drawer.Navigator initialRouteName="Home">
+//             <Drawer.Screen name="Home" component={HomeScreen} />
+//             <Drawer.Screen name="Notifications" component={NotificationsScreen} />
+//         </Drawer.Navigator>
+//     </NavigationContainer>
+//     );
+// }
 
 
 export default function RootStackNav(){
